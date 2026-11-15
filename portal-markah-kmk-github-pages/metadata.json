@@ -1,0 +1,6 @@
+{
+  "name": "Portal Markah KMK",
+  "description": "Aplikasi web responsif untuk pelajar log masuk dan menyemak rekod markah KMK melalui Supabase Authentication dan Row Level Security (RLS).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
