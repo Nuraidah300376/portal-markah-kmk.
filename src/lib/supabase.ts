@@ -106,7 +106,7 @@ export function getPasswordRecoveryRedirectUrl(): string {
   if (typeof window === 'undefined') {
     return '/reset-password';
   }
-  return `${window.location.origin}/reset-password`;
+  return `${window.location.origin}${import.meta.env.BASE_URL}?recovery=1`;
 }
 
 export function formatAuthError(error: unknown): string {
